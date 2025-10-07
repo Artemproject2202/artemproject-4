@@ -166,4 +166,4 @@ class TestIntegration:
             assert len(students) == 1
             assert students[0]['full_name'] == 'Тест Студент'
         finally:
-            os.unlink(temp_filename)
+            os.unlink(temp_filename)не
